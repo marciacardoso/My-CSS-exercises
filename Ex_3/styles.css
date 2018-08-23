@@ -1,0 +1,18 @@
+/*This selector selects all h elements*/
+h1 {
+color: blue;
+}
+
+/*This selector selects all p elements*/
+p {
+    color:gray;
+}
+
+/*This selector selects all a elements*/
+a {
+    color: yellow;
+}
+
+
+
+

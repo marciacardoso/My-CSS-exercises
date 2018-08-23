@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Selectors</title>
+  <style type="text/css">
+    /* We select all the document * elements and apply the color property with a white value */
+
+    * {
+      color: green;
+    }
+
+    /* Element with id="login" */
+
+    #login {
+      color: gray;
+    }
+
+    /* All elements that have class="red" */
+
+    .red {
+      color: red;
+    }
+
+    label,
+    input {
+      color: pink;
+    }
+
+    /* Select input elements that have a type submit attribute */
+
+    input[type="submit"] {
+      color: brown;
+    }
+
+    div > a {
+  color: red;
+}
+  </style>
+</head>
+
+<body>
+  <h1>Selectors</h1>
+  <hr>
+  <form id="login">
+    <div>
+      <label for="username">Username</label>
+      <input name="username" id="username" placeholder="Username">
+    </div>
+    <div>
+      <label for="password">Password</label>
+      <input name="password" id="password" placeholder="Password">
+    </div>
+    <div>
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+  <div>
+    <p>This text is
+      <span class="red">red</span>
+    </p>
+    <a href="#" class="red">Link</a>
+  </div>
+
+  <div>
+    <a href="#">Link inside a div</a>
+    <p><a href="#">Link inside a parragraph inside a div</a>
+    </p>
+  </div>
+</body>
+
+</html>
